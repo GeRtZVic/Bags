@@ -1,0 +1,6 @@
+.reviews_hide{
+    display: none;
+}
+.show_reviews{
+    cursor: pointer;
+}

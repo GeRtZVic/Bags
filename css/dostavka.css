@@ -1,0 +1,41 @@
+.dostavka_page{
+    background-color: #f2f7fa;
+    padding-bottom: 100px;
+}
+
+.dostavka_content{
+    padding-top: 10px;
+}
+
+.dostavka_block{
+    padding-top: 30px;
+}
+
+.dost_txt h3{
+    color: #1a1a1a;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 15px 0;
+    margin-top: 0;
+}
+
+.dost_txt p{
+    color: #4d4d4d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+@media (max-width: 767px){
+    .dostavka_page {
+        padding-bottom: 30px;
+    }
+    .dostavka_content {
+        padding-top: 0;
+    }
+    .dost_txt p{
+        text-align: justify;
+    }
+}

@@ -1,0 +1,139 @@
+.brands_page{
+    background-color: #f2f7fa;
+}
+
+.brands_filter{
+    padding: 40px 0 50px;
+}
+
+.brands_filter_txt{
+    display: inline-block;
+    color: #1a1a1a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    float: left;
+    padding-right: 5px;
+}
+
+.brands_filter ul{
+    padding-left: 0;
+    margin: 0;
+}
+
+.brands_filter ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 3px;
+}
+
+.brands_filter ul li a{
+    position: relative;
+    display: block;
+    color: #3498db;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.brands_filter ul li a:hover{
+    text-decoration: none;
+}
+
+.brands_filter ul li a:before {
+    position: absolute;
+    content: '';
+    border-bottom: 1px dashed #3498db;
+    width: 100%;
+    height: 1px;
+    bottom: 7px;
+}
+
+.brands_filter ul li a:hover:before{
+    border: none;
+}
+
+.brands_content{
+    padding-bottom: 80px;
+}
+
+.brand_img{
+    display: block;
+    text-align: center;
+    height: 138px;
+    border: 1px solid #e6ebed;
+    background-color: #ffffff;
+    transition: .2s;
+}
+
+.brand_img:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.brand_block:hover{
+    text-decoration: none;
+}
+
+.brand_block:hover .brand_img{
+    border: 1px solid #4fa4e6;
+}
+
+.brand_block p{
+    color: #1a1a1a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px 0;
+    transition: .2s;
+}
+
+.brand_block:hover p{
+    text-decoration: underline;
+}
+
+.brands_page_txt{
+    background-color: #ebf0f2;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.brands_page_txt h3{
+    color: #1a1a1a;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.brands_page_txt p{
+    color: #4d4d4d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+@media (max-width: 767px){
+    .brands_filter {
+        padding: 30px 0;
+    }
+    .brands_content{
+        padding-bottom: 30px;
+    }
+    .brands_page_txt {
+        background-color: #ebf0f2;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .brands_page_txt p {
+        text-align: justify;
+    }
+}

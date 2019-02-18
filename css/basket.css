@@ -1,0 +1,195 @@
+.basket_page{
+    background-color: #f2f7fa;
+    padding-bottom: 110px;
+}
+
+.promo_kod{
+    border: 1px solid #edf2f5;
+    background-color: #ebf0f2;
+}
+
+.promo_kod_form{
+    padding: 25px 60px 40px 30px;
+}
+
+.basket_summary .bag_center_btn{
+    width: 248px;
+    margin: 15px auto 10px;
+}
+
+.promo_kod_txt{
+    padding: 25px 25px 0 0;
+    text-align: right;
+}
+
+.sale_block{
+    padding-top: 20px;
+}
+
+.sale_block .filter_top_b{
+    margin-top: 10px;
+}
+
+.promo_kod_txt_a {
+    display: inline-block;
+    position: relative;
+    margin-left: 15px;
+    color: #3498db;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.promo_kod_txt_a:before {
+    position: absolute;
+    content: '';
+    border-bottom: 1px dashed #3498db;
+    width: 100%;
+    height: 1px;
+    bottom: 4px;
+}
+.promo_kod_txt_a:hover{
+    text-decoration: none;
+    color: #3498db;
+}
+.promo_kod_txt_a:hover:before{
+    border: none;
+}
+.promo_kod_txt p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #1a1a1a;
+}
+
+.promo_kod_txt p a{
+    color: #3498db;
+    text-decoration: underline;
+}
+
+.promo_kod_txt p a:hover{
+    text-decoration: none;
+}
+
+.basket_block{
+    background-color: #fff;
+    border-bottom: 10px solid #f2f7fa;
+}
+
+.basket_block_close{
+    position: absolute;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='9' height='9' viewBox='0 0 9 9'%3e%3cdefs%3e%3cpath id='miv4a' d='M415 447.1l8.1-8.1.9.9-8.1 8.1z'/%3e%3cpath id='miv4b' d='M415 439.9l.9-.9 8.1 8.1-.9.9z'/%3e%3cclipPath id='miv4c'%3e%3cuse fill='%23fff' xlink:href='%23miv4a'/%3e%3c/clipPath%3e%3cclipPath id='miv4d'%3e%3cuse fill='%23fff' xlink:href='%23miv4b'/%3e%3c/clipPath%3e%3c/defs%3e%3cg%3e%3cg transform='translate(-415 -439)'%3e%3cuse fill='%23fff' fill-opacity='0' stroke='%233498db' stroke-miterlimit='50' stroke-width='6' clip-path='url(&quot;%23miv4c&quot;)' xlink:href='%23miv4a'/%3e%3c/g%3e%3cg transform='translate(-415 -439)'%3e%3cuse fill='%23fff' fill-opacity='0' stroke='%233498db' stroke-miterlimit='50' stroke-width='6' clip-path='url(&quot;%23miv4d&quot;)' xlink:href='%23miv4b'/%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 9px;
+    height: 9px;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.field-good-count{
+    margin: 0;
+}
+
+.basket_page .numbers-row{
+    margin: 0;
+}
+
+.tab-pic{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 30px;
+}
+
+
+.basket_page .table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td{
+    color: #1a1a1a;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 0;
+}
+
+.tab-txt{
+    display: inline-block;
+    vertical-align: middle;
+    color: #1a1a1a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0 15px;
+    max-width: 250px;;
+}
+
+.tab_price{
+    color: #4d4d4d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 40px;
+    margin-bottom: 0;
+}
+
+.basket_page .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 10px 0;
+    vertical-align: middle;
+    border: 0;
+    position: relative;
+}
+
+.basket_content{
+    padding-top: 35px;
+}
+
+@media (max-width: 1199px){
+    .promo_kod_form {
+        padding: 25px 15px 40px 15px;
+    }
+    .promo_kod_txt {
+        padding: 25px 15px 0 0;
+    }
+    .promo_kod{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 991px){
+    .tab-pic{
+        display: block;
+        text-align: center;
+    }
+    .tab-txt {
+        display: block;
+        text-align: center;
+        margin: 15px 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .basket_page thead{
+        display: none;
+    }
+    .basket_page .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+        display: block;
+        text-align: center;
+    }
+    .basket_page {
+        padding-bottom: 30px;
+    }
+    .promo_kod_txt {
+        padding: 15px;
+    }
+    ._summary_content {
+        padding: 10px 15px 20px;
+    }
+    .basket_content {
+        padding-top: 15px;
+    }
+}
